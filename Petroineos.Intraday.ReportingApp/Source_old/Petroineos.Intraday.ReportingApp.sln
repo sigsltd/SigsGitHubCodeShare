@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petroineos.Intraday.Lib", "Petroineos.Intraday.Lib\Petroineos.Intraday.Lib.csproj", "{60DD4726-5B08-457A-A1D0-006AF61A6FC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petroineos.Intraday.Test", "Petroineos.Intraday.Test\Petroineos.Intraday.Test.csproj", "{122A514E-9172-4E09-A10F-BB4036558D0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{5307ABFD-F871-416F-9861-D1D039EECADE}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetroineosIntradayTradesExtractorService", "PetroineosIntradayTradesExtractorService\PetroineosIntradayTradesExtractorService.csproj", "{B8808348-DC27-4476-8A28-A5B3EAEA8C73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{37942CA0-B45E-43B9-B066-504B404EC8C4}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petroineos.Intraday.IntegrationTests", "Petroineos.Intraday.IntegrationTests\Petroineos.Intraday.IntegrationTests.csproj", "{AFE9B53E-7BCC-42F6-BBF7-A36FCE56BA17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60DD4726-5B08-457A-A1D0-006AF61A6FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DD4726-5B08-457A-A1D0-006AF61A6FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DD4726-5B08-457A-A1D0-006AF61A6FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DD4726-5B08-457A-A1D0-006AF61A6FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{122A514E-9172-4E09-A10F-BB4036558D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122A514E-9172-4E09-A10F-BB4036558D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122A514E-9172-4E09-A10F-BB4036558D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122A514E-9172-4E09-A10F-BB4036558D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8808348-DC27-4476-8A28-A5B3EAEA8C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8808348-DC27-4476-8A28-A5B3EAEA8C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8808348-DC27-4476-8A28-A5B3EAEA8C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8808348-DC27-4476-8A28-A5B3EAEA8C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE9B53E-7BCC-42F6-BBF7-A36FCE56BA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE9B53E-7BCC-42F6-BBF7-A36FCE56BA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE9B53E-7BCC-42F6-BBF7-A36FCE56BA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE9B53E-7BCC-42F6-BBF7-A36FCE56BA17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sigslimited.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Petroineos.Intraday.Lib\\Petroineos.Intraday.Lib.csproj
+		SccProjectName1 = Petroineos.Intraday.Lib
+		SccLocalPath1 = Petroineos.Intraday.Lib
+		SccProjectUniqueName2 = Petroineos.Intraday.Test\\Petroineos.Intraday.Test.csproj
+		SccProjectName2 = Petroineos.Intraday.Test
+		SccLocalPath2 = Petroineos.Intraday.Test
+		SccProjectUniqueName3 = PetroineosIntradayTradesExtractorService\\PetroineosIntradayTradesExtractorService.csproj
+		SccProjectName3 = PetroineosIntradayTradesExtractorService
+		SccLocalPath3 = PetroineosIntradayTradesExtractorService
+		SccProjectUniqueName4 = Petroineos.Intraday.IntegrationTests\\Petroineos.Intraday.IntegrationTests.csproj
+		SccProjectName4 = Petroineos.Intraday.IntegrationTests
+		SccLocalPath4 = Petroineos.Intraday.IntegrationTests
+	EndGlobalSection
+EndGlobal
